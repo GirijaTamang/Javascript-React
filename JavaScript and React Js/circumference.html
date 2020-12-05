@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CalcCircumference</title>
+</head>
+<body>
+  <input type="number" id="radius" placeholder="Enter radius:">
+  <button onclick="calcCircumfrence()"> Calculate</button>
+  <script>
+    function calcCircumfrence() {
+      var r = document.getElementById("radius").value;
+      var cir = 2*3.14*r;
+      alert(" Circumference of Circle is " + cir);
+    }    
+  </script>
+</body> 
+</html>
